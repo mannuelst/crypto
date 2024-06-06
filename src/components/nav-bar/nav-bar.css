@@ -44,3 +44,13 @@
     background-color: #09005c;
     color: white;
 }
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+li {
+    cursor: pointer;
+}
