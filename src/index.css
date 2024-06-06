@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Outfit";
+  src: local("Outfit"),
+    url("./assets/fonts/Outfit-Regular.ttf") format("truetype");
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit";
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+ul {
+  display: flex;
+  gap: 4px;
+  list-style: none;
+}
+
+li {
+  cursor: pointer;
+}
+
+.app {
+  min-height: 100vh;
+  color: white;
+  background: linear-gradient(#0b004e, #1d152f, #002834);
+}
